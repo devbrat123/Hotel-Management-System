@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+  <title>registration form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="RegistrationForm.css" rel="stylesheet">
+  <style>
+  #log{
+                padding: 60px 40px;
+                margin-top: 180px;
+                -webkit-box-shadow: -webkit-box-shadow: 7px 2px 48px 2px rgba(0,0,0,0.55);
+-moz-box-shadow: 7px 2px 48px 2px rgba(0,0,0,0.55);
+box-shadow: 7px 2px 48px 2px rgba(0,0,0,0.55);
+            }
+		body{
+     background: url('login_photo2.jpg') ;
+	 width: 100%;
+     height: 100%;
+   }
+#log:hover{
+    -webkit-box-shadow: -1px 3px 14px 2px rgba(0,0,0,0.54);
+-moz-box-shadow: -1px 3px 14px 2px rgba(0,0,0,0.54);
+box-shadow: -1px 3px 14px 2px rgba(0,0,0,0.54);
+}   
+  </style>
+</head>
+<body>
+        <div class="container ">
+		<h1 style="text-align:center;font-family:sans;font-size:30px;font-weight:700;margin-top:30px">Add room Booking</h1>
+            <div class="row" id="log" style="margin:80px 50px 0px 50px">
+			
+              <div class="col-sm-12 col-md-2 col-lg-2">  </div>
+			
+			   <div class="col-sm-12 col-md-4 col-lg-4"> 
+			      <form action="#" method="post">
+			    <div class="form-group">
+    <label for="aadhar">Name:</label>
+    <input type="text" class="form-control" id="name"name="name">
+                </div>
+				<div class="form-group" style="margin-top:20px">
+    <label for="email">Email:</label>
+    <input type="text" class="form-control" id="name"name="name">
+                </div>
+				
+				<div class="form-group" style="margin-top:42px">
+      <label for="mb">Gender:</label>
+      <div class="form-check-inline">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio">Male
+  </label>
+</div>
+<div class="form-check-inline">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio">Female
+  </label>
+</div>
+<div class="form-check-inline disabled">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio">other
+  </label>
+</div>
+    </div> 
+				<div class="form-group">
+    <label for="city">City:</span>
+    <input type="text" class="form-control" id="city" name="city">
+                </div>
+			   </div>
+			  
+			   
+			   <div class="col-sm-12 col-md-4 col-lg-4">  
+			    <div class="form-group">
+    <label for="state">State:</label>
+    <input type="text" class="form-control" id="state" name="state">
+             </div>
+   <div class="form-group">
+  <label for="sel1">Room Type:</label>
+  <select class="form-control" id="sel1">
+    <option>AC</option>
+    <option>NON-AC</option>
+    <option>FAMILY</option>
+    <option>FOR-RENT</option>
+  </select>
+</div>
+				<div class="form-group">
+    <label for="email">Contact:</label>
+    <input type="contact" class="form-control" id="contact" name="contact">
+                </div>
+				<div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" class="form-control" id="email">
+                </div>
+  
+
+			   </div>
+			 
+			   				<button type="button" class="btn btn-primary btn-block" style="width:63%;margin-left:165px;"><span style="font-family:serif;font-weight:600">SUBMIT</span></button>
+			
+			 </form>   
+
+			    <div class="col-sm-12 col-md-2 col-lg-2">  </div>
+                
+        </div>
+        </div>
+    </body>
+</html>

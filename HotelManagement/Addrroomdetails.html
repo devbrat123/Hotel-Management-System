@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+  <title>registration form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="RegistrationForm.css" rel="stylesheet">
+  <style>
+  #log{
+                padding: 60px 40px;
+                margin-top: 180px;
+                -webkit-box-shadow: -webkit-box-shadow: 7px 2px 48px 2px rgba(0,0,0,0.55);
+-moz-box-shadow: 7px 2px 48px 2px rgba(0,0,0,0.55);
+box-shadow: 7px 2px 48px 2px rgba(0,0,0,0.55);
+            }
+		body{
+     background: url('login_photo2.jpg') ;
+	 width: 100%;
+     height: 100%;
+   }
+#log:hover{
+    -webkit-box-shadow: -1px 3px 14px 2px rgba(0,0,0,0.54);
+-moz-box-shadow: -1px 3px 14px 2px rgba(0,0,0,0.54);
+box-shadow: -1px 3px 14px 2px rgba(0,0,0,0.54);
+}   
+  </style>
+</head>
+<body>
+        <div class="container ">
+		<h1 style="text-align:center;font-family:sans;font-size:30px;font-weight:700;margin-top:30px">Add room Details</h1>
+            <div class="row" id="log" style="margin:80px 50px 0px 50px">
+			
+              <div class="col-sm-12 col-md-2 col-lg-2">  </div>
+			
+			   <div class="col-sm-12 col-md-4 col-lg-4"> 
+			      <form action="#" method="post">
+			    <div class="form-group">
+    <label for="aadhar">Room Number:</label>
+    <input type="number" class="form-control" id="roomnumber"name="roomnumber">
+                </div>
+				<div class="form-group">
+  <label for="sel1">Room Type:</label>
+  <select class="form-control" id="sel1">
+    <option>AC</option>
+    <option>NON-AC</option>
+    <option>FAMILY</option>
+    <option>FOR-RENT</option>
+  </select>
+</div>
+				<div class="form-group">
+  <label for="sel1">Meal:</label>
+  <select class="form-control" id="sel1" name="meal">
+    <option>Free breakfast</option>
+    <option>Free dinner</option>
+    <option>free breakfast and dinner</option>
+    <option>No breakfast</option>
+  </select>
+</div>
+				
+			
+			   </div>
+			  
+			   
+			   <div class="col-sm-12 col-md-4 col-lg-4">  
+			    <div class="form-group">
+    <label for="cancel">Cancellation Charge</label>
+    <input type="number" class="form-control" id="cancel" name="cancel">
+             </div>
+   
+				<div class="form-group">
+    <label for="mobile">Mobile No.<label>
+    <input type="number" class="form-control" id="mobile" name="mobileno">
+                </div>
+				<div class="form-group">
+    <label for="charge">Rent Per night </label>
+    <input type="number" class="form-control" id="charge">
+                </div>
+  
+
+			   </div>
+			 
+			   				<button type="button" class="btn btn-primary btn-block" style="width:63%;margin-left:165px;"><span style="font-family:serif;font-weight:600">SUBMIT</span></button>
+			
+			 </form>   
+
+			    <div class="col-sm-12 col-md-2 col-lg-2">  </div>
+                
+        </div>
+        </div>
+    </body>
+</html>
